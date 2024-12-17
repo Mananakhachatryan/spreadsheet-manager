@@ -1,0 +1,9 @@
+.homepage-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    .sheet-col {
+        display: flex;
+        gap: 50px;
+    }
+}

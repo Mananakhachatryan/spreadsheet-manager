@@ -1,0 +1,21 @@
+button{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    &.active{
+        background-color: #dff0d8;
+    }
+}
+.col-item{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    &.sum{
+        background-color: #e7f3fe;
+    }
+}
